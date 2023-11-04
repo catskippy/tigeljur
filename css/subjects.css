@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#currentDate {
+    margin: 0;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.school-bg {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+    text-align: center; /* Выравнивание надписей по центру */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Дополнительные стили для кнопок */
+a {
+    font-size: 18px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
