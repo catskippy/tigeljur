@@ -1,0 +1,11 @@
+Алмеров Олег|O|O|E|E|E|E|E|E|E|E|E|E|E
+Бусов Эмиль|O|O|E|E|E|E|E|E|E|E|E|E|E
+Денанесов Артём|O|O|E|E|E|E|E|E|E|E|E|E|E
+Иванов Владимир|O|O|E|E|E|E|E|E|E|E|E|E|E
+Котов Сергей|O|O|E|E|E|E|E|E|E|E|E|E|E
+Кузин Александр|O|O|E|E|E|E|E|E|E|E|E|E|E
+Курганов Валерий|O|O|E|E|E|E|E|E|E|E|E|E|E
+Лахова Мария|O|O|E|E|E|E|E|E|E|E|E|E|E
+Мурзиков Андрей|O|O|E|E|E|E|E|E|E|E|E|E|E
+Скиппов Андрей|O|O|E|E|E|E|E|E|E|E|E|E|E
+Тайгеров Андрей|O|O|E|E|E|E|E|E|E|E|E|E|E
