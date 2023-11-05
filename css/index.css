@@ -1,0 +1,102 @@
+/* Стили для body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для h1 */
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Стили для p */
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Стили для .intro */
+.intro {
+    background-image: url('../img/gs-school.png'); /* Замените 'your-image.jpg' на путь к изображению */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+.intro2 {
+    background-image: url('../img/gs-school2.png'); /* Замените 'your-image.jpg' на путь к изображению */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.introg {
+    background-image: url('../img/gs-school3.png'); /* Замените 'your-image.jpg' на путь к изображению */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.intro:hover {
+    background: #003366;
+    color: #fff;
+}
+
+
+
+.school-bg {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.intro, .features, .call-to-action {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #001f4d;
+}
