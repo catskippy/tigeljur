@@ -2,31 +2,44 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Электронный журнал Тайгерия</title>
+    <style>
+        ::marker {
+            opacity: 0.1;
+        }
+    </style>
 </head>
 <body class="school-bg">
     <header>
-        <h1>Добро пожаловать в школу Тайгерия</h1>
+        <h1>Добро пожаловать в электронный журнал "Гимназии №3"!</h1>
+        <p>Официальнный электронный портал школы.</p>
     </header>
     
-    <div class="school-info">
+    <section class="intro">
         <h2>О нашей школе</h2>
-        <p>Здесь вы найдете информацию о нашей школе и ресурсы для учеников и родителей.</p>
-    </div>
+        <p>
+            Школа Тайгерия - это уникальное учебное заведение, специализирующееся на уникальной учебной программе. Наша школа предоставляет ученикам широкий спектр предметов и возможностей для развития и творчества.
+        </p>
+    </section>
 
-    <div class="screenshots">
-        <h2>Скриншоты школы:</h2>
-        <img src="screenshot1.jpg" alt="Скриншот 1">
-        <img src="screenshot2.jpg" alt="Скриншот 2">
-        <img src="screenshot3.jpg" alt="Скриншот 3">
-    </div>
+    <section class="intro2">
+        <h2>Наши особенности</h2>
+        <ul>
+            <li>Продвинутые курсы по строительству и архитектуре</li>
+            <li>Уникальные уроки и Д/З</li>
+            <li>Оценки и успеваемость в электронном формате</li>
+            <li>Свободное общение с единомышленниками</li>
+        </ul>
+    </section>
+<br>
+    <section class="introg">
+        <h2>Присоединяйтесь к нам сегодня!</h2>
+        <a href="subgrad/subjects.html" class="btn">Перейти в журнал</a>
+        <a href="news/news.html" class="btn">Посмотреть объявления</a>
+        <a href="grades.html" class="btn">Посмотреть расписание [not work]</a>
+    </section>
 
-    <div class="menu">
-        <h2>Меню:</h2>
-        <a href="subgrad/subjects.html">Оценки учеников</a>
-        <a href="schedule.html">Звонки и уроки</a>
-        <a href="announcements.html">Объявления</a>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
