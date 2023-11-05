@@ -62,3 +62,16 @@ p {
     padding: 10px;
     background-color: #f7f7f7;
 }
+
+/* Стили для скрытого блока */
+.hidden-block {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Стили для показанного блока */
+.visible-block {
+  display: block;
+  opacity: 1;
+}
