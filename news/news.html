@@ -13,7 +13,7 @@
     <section class="announcement">
         <h2>Домашнее задание на хз.11.23</h2>
         <p>Нажмите, чтобы узнать д/з.</p>
-        <div class="more-info">
+        <div сlass="hidden-block">
             <p>        <p>Д/З:</p>
             <p> Русский язык
                 - Учить записи в тетраде
@@ -37,19 +37,18 @@
         </div>
     </section>
 <script>
-    const announcements = document.querySelectorAll('.announcement');
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = document.querySelectorAll('.section');
+
+  sections.forEach(section => {
+    const hiddenBlock = section.querySelector('.hidden-block');
     
-    announcements.forEach(announcement => {
-        announcement.addEventListener('click', () => {
-            const moreInfo = announcement.querySelector('.more-info');
-    
-            if (moreInfo.style.display === 'block' || moreInfo.style.display === '') {
-                moreInfo.style.display = 'none';
-            } else {
-                moreInfo.style.display = 'block';
-            }
-        });
+    section.addEventListener('click', function() {
+      hiddenBlock.classList.toggle('visible-block');
     });
+  });
+});
+
 </script>
 
 </body>
