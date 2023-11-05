@@ -18,18 +18,7 @@ h1 {
     font-size: 32px;
 }
 
-#currentDate {
-    margin: 0;
-    font-size: 18px;
-    color: #ccc;
-}
-
-.school-bg {
-    background-color: #f7f7f7;
-    padding: 20px;
-}
-
-ul {
+ul.subject-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -40,7 +29,7 @@ ul {
 
 li {
     margin: 10px;
-    text-align: center; /* Выравнивание надписей по центру */
+    text-align: center;
 }
 
 a {
@@ -66,4 +55,57 @@ a {
 
 a:hover {
     transform: scale(1.05);
+}
+
+/* Стили для текста внизу страницы */
+.bottom-text {
+    text-align: center;
+    font-size: 16px; /* Мелкий шрифт */
+    margin-top: 20px;
+    opacity: 0.35;
+}
+
+/* Стили для списка предметов */
+.subject-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Выравнивание по центру */
+}
+
+li {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Сортировка кнопок по вертикали */
+    align-items: center; /* Выравнивание кнопок по центру */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px 0; /* Добавляет отступ между кнопками */
+}
+
+/* .subjets-list, li and a!!!*/
+/* .subjets-list, li and a!!!*/
+/* .subjets-list, li and a!!!*/
+
+a:hover {
+    background-color: #0056b3;
+}
+
+.br {
+    margin: 190px;
+}
+
+.sl-br {
+    margin: 100px;
 }
