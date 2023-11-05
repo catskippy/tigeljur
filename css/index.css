@@ -29,7 +29,7 @@ p {
 
 /* Стили для .intro */
 .intro {
-    background-image: url('../img/gs-school.png'); /* Замените 'your-image.jpg' на путь к изображению */
+  /*  background-image: url('../img/gs-school.png'); /* Замените 'your-image.jpg' на путь к изображению */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -38,7 +38,7 @@ p {
     transition: background 0.3s, color 0.3s;
 }
 .intro2 {
-    background-image: url('../img/gs-school2.png'); /* Замените 'your-image.jpg' на путь к изображению */
+  /*  background-image: url('../img/gs-school2.png'); /* Замените 'your-image.jpg' на путь к изображению */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -48,7 +48,7 @@ p {
 }
 
 .introg {
-    background-image: url('../img/gs-school3.png'); /* Замените 'your-image.jpg' на путь к изображению */
+  /*  background-image: url('../img/gs-school3.png'); /* Замените 'your-image.jpg' на путь к изображению */
     background-size: cover;
     background-position: center;
     text-align: center;
