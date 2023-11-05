@@ -1,0 +1,79 @@
+/* Стили для body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для h1 */
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Стили для homework-section */
+.homework-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Стили для homework-item */
+.homework-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Стили для кнопки "Вернуться на главную" */
+.go-back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.go-back-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.go-back-button:hover {
+    background-color: #001f4d;
+}
