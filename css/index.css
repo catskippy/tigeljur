@@ -13,6 +13,7 @@ header {
     text-align: center;
     padding: 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
 /* Стили для h1 */
@@ -27,43 +28,49 @@ p {
     font-size: 18px;
 }
 
-/* Стили для .intro */
-.intro {
-    background-image: url('https://kappa.lol/OKQ2l'); 
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 100px 0;
+/* Измените цвет кнопок */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F6AA0D; /* Новый цвет кнопок */
     color: #fff;
-    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
-.intro2 {
-    background-image: url('https://kappa.lol/lkmdo');
+
+.btn:hover {
+    background-color: #E39500; /* Новый цвет кнопок при наведении */
+}
+
+/* Уберите стили для .intro, .intro2 и .introg */
+.intro, .intro2, .introg {
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 69px 0;
     color: #fff;
-    transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer; /* Курсор при наведении */
+}
+
+.intro {
+    background-image: url('https://kappa.lol/OKQ2l'); /* Замените 'your-image.jpg' на путь к изображению */
+}
+
+.intro2 {
+    background-image: url('https://kappa.lol/lkmdo'); /* Замените 'your-image.jpg' на путь к изображению */
 }
 
 .introg {
-    background-image: url('https://kappa.lol/vrE4p'); 
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 100px 0;
-    color: #fff;
-    transition: background 0.3s, color 0.3s;
+    background-image: url('https://kappa.lol/vrE4p'); /* Замените 'your-image.jpg' на путь к изображению */
 }
 
-
-.intro:hover {
+.intro:hover, .intro2:hover, .introg:hover {
     background: #003366;
     color: #fff;
+    transform: scale(1.05); /* Увеличение размера при наведении */
 }
-
-
 
 .school-bg {
     background-color: #f7f7f7;

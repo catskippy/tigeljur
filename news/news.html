@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/news.css">
+    <title>Объявления</title>
+</head>
+<body class="school-bg">
+    <header>
+        <h1>Объявления</h1>
+    </header>
+    
+    <section class="announcement">
+        <h2>Домашнее задание на хз.11.23</h2>
+        <p>Нажмите, чтобы узнать д/з.</p>
+        <div class="more-info">
+            <p>        <p>Д/З:</p>
+            <p> Русский язык
+                - Учить записи в тетраде
+            </p>
+            <p> Русский язык
+                - Учить записи в тетраде
+            </p>
+            <p> Русский язык
+                - Учить записи в тетраде
+            </p></p>
+        </div>
+    </section>
+
+    <section class="announcement">
+        <h2>Новый элжур!</h2>
+        <p>Разработали новый личный элжур. Нажмите, чтобы узнать подробнее...</p>
+        <div class="more-info">
+            <p>Мы закончили разрабатывать свой элжур для Тайгерии! Тот элжур всегда блокировали, но этот не будут блокировать. </p>
+            <p>Мы продолжим его развивать! О багах пишите Егору в Дискорде</p>
+        </div>
+    </section>
+<script>
+    const announcements = document.querySelectorAll('.announcement');
+    
+    announcements.forEach(announcement => {
+        announcement.addEventListener('click', () => {
+            const moreInfo = announcement.querySelector('.more-info');
+    
+            if (moreInfo.style.display === 'block' || moreInfo.style.display === '') {
+                moreInfo.style.display = 'none';
+            } else {
+                moreInfo.style.display = 'block';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
