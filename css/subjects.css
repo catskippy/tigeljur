@@ -18,6 +18,12 @@ h1 {
     font-size: 32px;
 }
 
+h2 {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
 ul.subject-list {
     list-style-type: none;
     padding: 0;
