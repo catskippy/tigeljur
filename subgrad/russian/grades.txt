@@ -1,10 +1,10 @@
-Алмеров Олег|H|H|H|O|E|E|E|E|E|E|E|E|E
-Бусов Эмиль|H|H|H|O|E|E|E|E|E|E|E|E|E
+Алмеров Олег|H|H|H|Н|E|E|E|E|E|E|E|E|E
+Бусов Эмиль|H|H|5/5|O|E|E|E|E|E|E|E|E|E
 Денанесов Артём|H|H|H|O|E|E|E|E|E|E|E|E|E
 Иванов Владимир|H|H|H|O|E|E|E|E|E|E|E|E|E
 Котов Сергей|4|H|H|O|E|E|E|E|E|E|E|E|E
 Кузин Александр|H|H|H|O|E|E|E|E|E|E|E|E|E
-Курганов Валерий|3|H|H|O|E|E|E|E|E|E|E|E|E
+Курганов Валерий|Н|H|H|O|E|E|E|E|E|E|E|E|E
 Лахова Мария|5|5|H|O|E|E|E|E|E|E|E|E|E
 Мурзиков Андрей|H|H|H|O|E|E|E|E|E|E|E|E|E
 Скиппов Андрей|5|5|H|O|E|E|E|E|E|E|E|E|E
