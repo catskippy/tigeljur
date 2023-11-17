@@ -1,5 +1,5 @@
 Алмеров Олег|H|E|E|Н|E|E|E|E|E|E|E|E|E|E|E
-Мазелов Эмиль|E|E|E|E|E|E|E|E|E|E|E|E|E
+Мазелов Эмиль|4 ( пров. работа )|E|E|E|E|E|E|E|E|E|E|E|E
 Денанесов Артём|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
 Иванов Владимир|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
 Котов Сергей|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
