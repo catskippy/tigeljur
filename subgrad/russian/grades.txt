@@ -1,11 +1,11 @@
-Алмеров Олег|H|E|E|Н|E|E|E|E|E|E|E|E|E|E|E
-Мазелов Эмиль| 4 ( п.р )|E|E|E|E|E|E|E|E|E|E|E|E
-Денанесов Артём|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Иванов Владимир|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Котов Сергей|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Кузин Александр|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Курганов Валерий|Н|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Лахова Мария|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Мурзиков Андрей|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Скиппов Андрей|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
-Тайгеров Андрей|H|E|E|E|E|E|E|E|E|E|E|E|E|E|E
+Алмеров Олег|H|Н|E|Н|E|E|E|E|E|E|E|E|E|E|E
+Мазелов Эмиль| 4 ( п.р )|5|E|E|E|E|E|E|E|E|E|E|E
+Денанесов Артём|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Иванов Владимир|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Котов Сергей|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Кузин Александр|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Курганов Валерий|Н|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Лахова Мария|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Мурзиков Андрей|H|Н|E|E|E|E|E|E|E|E|E|E|E|E|E
+Скиппов Андрей|H|3|E|E|E|E|E|E|E|E|E|E|E|E|E
+Тайгеров Андрей|H|5|E|E|E|E|E|E|E|E|E|E|E|E|E
