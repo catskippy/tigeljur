@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.remarks-section {
+    margin: 20px;
+}
+
+.remark-block {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.remark-info {
+    margin-bottom: 10px;
+}
+
+.remark-info p {
+    margin: 5px 0;
+}
+
+.remark-subject,
+.remark-content {
+    margin: 10px 0;
+}
+
+.go-back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.go-back-button:hover {
+    background-color: #001f4d;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.scroll-to-top-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #003366;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #001f4d;
+}
